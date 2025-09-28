@@ -13,6 +13,6 @@ public class HomeController {
 
     @GetMapping("/greet")
     public ResponseEntity<String> sayHello(){
-        return new ResponseEntity<>("Hey there!", HttpStatus.OK);
+        return new ResponseEntity<>("Hey there user!", HttpStatus.OK);
     }
 }
